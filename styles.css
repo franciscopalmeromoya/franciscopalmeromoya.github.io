@@ -64,15 +64,14 @@ footer {
 }
 
 .profile {
-    flex: 0 0 auto;
+    flex: 0 0 30%;
     margin-right: 20px;
     text-align: center;
+    padding: 10px;
 }
 
 .profile img {
-    width: 150px; /* Set your desired width */
-    height: 150px; /* Set your desired height */
-    max-width: 100%;
+    max-width: 70%;
     height: auto;
     border-radius: 100%;
 }
@@ -89,6 +88,13 @@ footer {
     color: #555;
     margin: 5px 0;
 }
+
+.lab-name a {
+    color: #007BFF; /* Set the color for the link */
+    text-decoration: none; /* Remove the underline */
+    font-weight: bold; /* Make the link text bold */
+}
+
 
 .social-links {
     margin-top: 10px;
@@ -108,4 +114,111 @@ footer {
     flex: 1;
 }
 
+.about-content-columns {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    align-items: flex-start; /* Align items at the start of the flex container */
+}
+
+.column {
+    flex: 1;
+    padding: 0 20px; /* Add some spacing between columns */
+}
+
+.column h2 {
+    color: #333; /* Adjust heading color */
+    margin-top: 0;
+}
+
+.interest-list {
+    list-style: none;
+    padding: 0;
+}
+
+.interest-list li {
+    margin-bottom: 20px; /* Adjust spacing between list items */
+    display: flex;
+    align-items: center;
+}
+
+.interest-list i {
+    font-size: 30px; /* Adjust the size of the icon */
+    margin-right: 10px;
+    color: #000000; /* Adjust the color of the icon */
+}
+
+.interest-details {
+    margin: 0;
+}
+
+.interest-details .name {
+    margin: 3px;
+    /* font-weight: bold;  Optionally make the name bold */
+}
+
+.examples {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-style: italic;
+}
+
+.examples li {
+    margin-left: 30px;
+    margin-bottom: 5px; /* Adjust spacing between example items */
+    position: relative;
+}
+
+.examples li:before {
+    content: "\2022"; /* Unicode character for a bullet (•) */
+    color: #000000; /* Adjust the color of the bullet */
+    font-size: 16px; /* Adjust the size of the bullet */
+    display: inline-block;
+    margin-right: 5px; /* Adjust spacing between the bullet and text */
+    position: absolute;
+    left: -20px; /* Adjust the distance of the bullet from the text */
+    top: 50%; /* Center the bullet vertically */
+    transform: translateY(-50%);
+}
+
+.education-list {
+    list-style: none;
+    padding: 0;
+}
+
+.education-list li {
+    margin-bottom: 20px; /* Adjust spacing between list items */
+    display: flex;
+    align-items: center;
+}
+
+.education-list i {
+    font-size: 24px; /* Adjust the size of the icon */
+    margin-right: 10px;
+    color: #000000; /* Adjust the color of the icon */
+}
+
+.education-info {
+    flex: 1;
+}
+
+.education-list .degree,
+.education-list .dates,
+.education-list .university {
+    margin: 0;
+}
+
+.education-list .dates {
+    color: #777; /* Adjust the color of the dates text */
+}
+
+.education-list .university {
+    color: #555; /* Adjust the color of the university text */
+    font-style: italic;
+}
+
+#projects {
+    background-color: #f7f7f7;
+}
 
