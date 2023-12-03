@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <script src="https://kit.fontawesome.com/67c8b50273.js" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
     <link rel="icon" href="img/icon.png" type="image/png">
     <title>Francisco Palmero</title>
 </head>
@@ -113,9 +114,17 @@
         </div>
     </section>
     <section id="projects">
-        Hola
+        <h1>Projects</h1>
+        <div id="project-filters">
+            <button onclick="filterProjects('all')" class="active" data-category="all">All</button>
+            <button onclick="filterProjects('physics')" data-category="physics">Physics</button>
+            <button onclick="filterProjects('ai')" data-category="ai">Artificial Intelligence</button>
+        </div>
+        <div id="project-list">
+            <!-- Your projects will be dynamically added here -->
+        </div>
     </section>
-
+    
     <footer>
         <p>Contact: <a href="mailto:franciscopalmeromoya@gmail.com">franciscopalmeromoya@gmail.com</a></p>
     </footer>
