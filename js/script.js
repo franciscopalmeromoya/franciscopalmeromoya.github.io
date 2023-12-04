@@ -95,6 +95,10 @@ function filterProjects(category) {
     }
 }
 
+function showCitation(citationMessage) {
+    alert(citationMessage);
+}
+
 
 
 // Load all projects by default after the DOM has fully loaded
