@@ -8,9 +8,9 @@ const projects = [
         description: "Bachelor's thesis in Physics where I studied the field of Lie groups with a special emphasis on SO(3) and SU(2) groups. The topological properties of such groups, together with their linear group representations, led us to understand the spinorial formalism.",
         imageUrl: 'img/SO3.png',
         links: [
-            { label: 'Learn more', url: 'projects/physics/lie.html' },
+            // { label: 'Learn more', url: 'projects/physics/lie.html' },
             { label: 'PDF (Spanish)', url: 'files/bscthesis.pdf' },
-            { label: 'PDF (English)', url: '' }
+            // { label: 'PDF (English)', url: '' }
         ]
     },
     { 
@@ -19,7 +19,8 @@ const projects = [
         description: 'The resulting model combines existent photometric, parallax, and chemical abundance of Lithium data sets of stars belonging to stellar open clusters to infer its age distribution through modern and robust artificial intelligence methods. The Bayesian hierarchical model not only facilitates simultaneous inference of star-level parameters but also offers an elegant framework for effectively pooling open cluster information and propagating uncertainty. Markov Chain Monte Carlo techniques allow us to sample the posterior distribution using the Hamiltonian Monte Carlo algorithm.',
         imageUrl: 'img/model.png',
         links: [
-            { label: 'Learn more', url: 'projects/ai/biosc.html' },
+            // { label: 'Learn more', url: 'projects/ai/biosc.html' },
+            { label: 'PDF', url: 'files/mscthesis.pdf' },
             { label: 'GitHub', url: 'https://github.com/franciscopalmeromoya/biosc' }
         ]
     },
@@ -31,6 +32,15 @@ const projects = [
         links: [
             { label: 'PDF', url: 'files/tsp.pdf' },
             { label: 'GitHub', url: 'https://github.com/franciscopalmeromoya/TravellingSalesmanProblem' }
+        ]
+    },
+    { 
+        title: 'Worm-Like Chain Parameters Estimation Library', 
+        category: 'physics', 
+        description: 'The Worm-Like Chain (WLC) Parameters Estimation Library is a Python package designed for estimating the main parameters of a Worm-Like Chain molecule from force-extension measurements. This library is a valuable tool for researchers and scientists working in biophysics, polymer physics, and related fields.',
+        imageUrl: 'img/wlc.png',
+        links: [
+            { label: 'GitHub', url: 'https://github.com/franciscopalmeromoya/wlc-fitting' }
         ]
     },
     // Add more projects as needed
