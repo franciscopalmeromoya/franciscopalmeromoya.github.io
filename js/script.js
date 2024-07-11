@@ -28,7 +28,7 @@ const projects = [
         title: 'A Genetic Algorithm approach for the Traveling Salesman Problem', 
         category: 'ai', 
         description: 'The Travelling Salesman Problem (TSP) is a well-known problem in computer science and operations research. It involves finding the shortest possible route that visits a given set of cities and returns to the starting city. This problem is NP-hard, meaning that it is very difficult to solve exactly, especially as the number of cities increases. One possible approach to solving the TSP is to use a Genetic Algorithm (GA). This involves representing the route as a string of numbers, with each number representing a city in the given set. The algorithm then uses principles of natural selection to evolve the string over many iterations, with the goal of finding the shortest possible rout',
-        imageUrl: 'img/48path.png',
+        imageUrl: 'img/GA.png',
         links: [
             { label: 'PDF', url: 'files/tsp.pdf' },
             { label: 'GitHub', url: 'https://github.com/franciscopalmeromoya/TravellingSalesmanProblem' }
