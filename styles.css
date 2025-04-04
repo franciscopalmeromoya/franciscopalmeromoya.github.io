@@ -91,7 +91,7 @@ footer {
 }
 
 .lab-name a {
-    color: #007BFF; /* Set the color for the link */
+    color: #1abc9c; /* Set the color for the link */
     text-decoration: none; /* Remove the underline */
     font-weight: bold; /* Make the link text bold */
 }
@@ -108,7 +108,7 @@ footer {
 
 .social-links i {
     font-size: 30px; /* Adjust the size of the icons */
-    color: #555; /* Adjust the color of the icons */
+    color: #1abc9c; /* Adjust the color of the icons */
 }
 
 .about-content {

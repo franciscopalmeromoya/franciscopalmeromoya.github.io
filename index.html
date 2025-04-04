@@ -10,169 +10,180 @@
     <title>Francisco Palmero</title>
 </head>
 <body>
-    <nav>
-        <ul>
-            <li><a href="#about">Home</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#publications">Publications</a></li>
-        </ul>
-    </nav>
+    <main>
+        <nav>
+            <ul>
+                <li><a href="#about">Home</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#publications">Publications</a></li>
+            </ul>
+        </nav>
 
-    <section id="about">
-        <div class="profile">
-            <img src="img/profile.jpg" alt="Your Name">
-            <div class="profile-info">
-                <h3>Francisco J. Palmero Moya</h3>
-                <p class="job-title">Scientific Programmer</p>
-                <p class="lab-name"><a href="https://nynkedekkerlab.web.ox.ac.uk/" target="_blank">Nynke Dekker Lab</a></p>
-                <div class="social-links">
-                    <a href="https://www.linkedin.com/in/franciscopalmeromoya/"   target="_blank">
-                    <i class="fab fa-linkedin"></i>
-                    </a>
-                    <a href="https://github.com/franciscopalmeromoya" 
-                    target="_blank">
-                    <i class="fab fa-github"></i></a>
-                    <a href="https://scholar.google.com/citations?user=Hgo-dI4AAAAJ&hl=en" 
-                    target="_blank">
-                    <i class="fab fa-google-scholar"></i></a>
-                </div>                
-            </div>
-        </div>
-
-        <div class="about-content">
-            <h1>About me</h1>
-            <p>
-                I am a mathematical physicist with a master's in Research in Artificial Intelligence. Since May 2023, I have been working as a Scientific Programmer at the Nynke Dekker Lab in Oxford, where we focus on understanding the DNA replication process of different biological systems.
-            </p>
-            <p>
-                I obtained my B.Sc. in Physics in 2022 studying the mathematical formalism of spinors. I also complement these studies with a B.Sc. in Mathematics with a strong focus on subjects closely related to physics. I recently completed a M.Sc. in Research in Artificial Intelligence and collaborated as a research assistant where we focused on stellar dating using Bayesian hierarchical models.
-            </p>
-            <p>
-                I consider myself a curious and proactive person. I am an eager reader of philosophy and literature in my free time.
-            </p>
-            <div class="about-content-columns">
-                <div class="column">
-                    <h2>Research interests</h2>
-                    <ul class="interest-list">
-                        <li>
-                            <i class="fas fa-atom"></i>
-                            <div class="interest-details">
-                                <p class="name">Geometry & Quantum Theory</p>
-                                <ul class="examples">
-                                    <li>Spinors</li>
-                                    <li>Lie Groups</li>
-                                    <li>Fiber bundles</li>
-                                </ul>
-                            </div>
-                        </li>
-                        <li>
-                            <i class="fas fa-laptop-code"></i>
-                            <div class="interest-details">
-                                <p class="name">Logic & Computer Science</p>
-                                <ul class="examples">
-                                    <li>Evolutionary Computing</li>
-                                    <li>Bayesian Inference</li>
-                                    <li>Quantum Programming</li>
-                                </ul>
-                            </div>
-                        </li>
-                        <li>
-                            <i class="fas fa-dna"></i>
-                            <div class="interest-details">
-                                <p class="name">Biophysics</p>
-                                <ul class="examples">
-                                    <li>DNA Replication</li>
-                                    <li>Morphogenesis</li>
-                                    <li>Physics of biological evolution</li>
-
-                                </ul>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-                <div class="column">
-                    <h2>Education</h2>
-                    <ul class="education-list">
-                        <li>
-                            <i class="fas fa-graduation-cap"></i>
-                            <div class="education-info">
-                                <p class="degree">MSc in Research in Artifical Intelligence</p>
-                                <p class="dates">Oct 2022 - Sep 2023</p>
-                                <p class="university">Universidad Nacional de Educacion a Distancia</p>
-                            </div>
-                        </li>
-                        <li>
-                            <i class="fas fa-graduation-cap"></i>
-                            <div class="education-info">
-                                <p class="degree">BSc in Mathematics</p>
-                                <p class="dates">Oct 2018 - present</p>
-                                <p class="university">Universidad Nacional de Educacion a Distancia</p>
-                            </div>
-                        </li>
-                        <li>
-                            <i class="fas fa-graduation-cap"></i>
-                            <div class="education-info">
-                                <p class="degree">BSc in Physics</p>
-                                <p class="dates">Sep 2017 - Jul 2022</p>
-                                <p class="university">Universidad de Cordoba</p>
-                            </div>
-                        </li>
-                    </ul>
+        <section id="about">
+            <div class="profile">
+                <img src="img/profile.jpg" alt="Your Name">
+                <div class="profile-info">
+                    <h3>Francisco J. Palmero Moya</h3>
+                    <p class="job-title">Scientific Programmer</p>
+                    <p class="lab-name"><a href="https://nynkedekkerlab.web.ox.ac.uk/" target="_blank">Nynke Dekker Lab</a></p>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/franciscopalmeromoya/"   target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://github.com/franciscopalmeromoya" 
+                        target="_blank">
+                        <i class="fab fa-github"></i></a>
+                        <a href="https://scholar.google.com/citations?user=Hgo-dI4AAAAJ&hl=en" 
+                        target="_blank">
+                        <i class="fab fa-google-scholar"></i></a>
+                    </div>                
                 </div>
             </div>
-        </div>
-    </section>
-    <section id="projects">
-        <h1>Projects</h1>
-        <div id="project-filters">
-            <button onclick="filterProjects('all')" class="active" data-category="all">All</button>
-            <button onclick="filterProjects('physics')" data-category="physics">Physics</button>
-            <button onclick="filterProjects('ai')" data-category="ai">Artificial Intelligence</button>
-        </div>
-        <div id="project-list">
-            <!-- Your projects will be dynamically added here -->
-        </div>
-    </section>
-    <section id="publications">
-        <div class="column">
-            <h1>Publications</h1>
-        </div>
-        <div class="column">
-            <div class="publication-item">
-                <div class="icon">
-                    <i class="fas fa-file-alt"></i>
-                </div>
-                <div class="content">
-                    <h2>Bayesian Inference of open cluster ages from photometry,
-                        parallaxes and Lithium measurements</h2>
-                    <p class="authors"><strong>Francisco J. Palmero Moya</strong>, J. Olivares, and L.M. Sarro.</p>
-                    <p class="journal">Astronomy & Astrophysics, submitted(2023)</p>
-                    <div class="buttons">
-                        <button><a href="https://github.com/franciscopalmeromoya/biosc" target="_blank">GitHub</a></button>
-                        <button onclick="showCitation('Bayesian Inference of open cluster ages from photometry, parallaxes and Lithium measurements. \nFrancisco J. Palmero Moya, J. Olivares, and L.M. Sarro.\nAstronomy & Astrophysics')">Cite Article</button>
-                        <button>DOI</button>
+
+            <div class="about-content">
+                <h1>About me</h1>
+                <p>
+                    I am a mathematical physicist with a master's in Research in Artificial Intelligence. Since May 2023, I have been working as a Scientific Programmer at the Nynke Dekker Lab in Oxford, where we focus on understanding the DNA replication process of different biological systems.
+                </p>
+                <p>
+                    I obtained my B.Sc. in Physics in 2022 studying the mathematical formalism of spinors. I also complement these studies with a B.Sc. in Mathematics with a strong focus on subjects closely related to physics. I recently completed a M.Sc. in Research in Artificial Intelligence and collaborated as a research assistant where we focused on stellar dating using Bayesian hierarchical models.
+                </p>
+                <p>
+                    I consider myself a curious and proactive person. I am an eager reader of philosophy and literature in my free time.
+                </p>
+                <div class="about-content-columns">
+                    <div class="column">
+                        <h2>Research interests</h2>
+                        <ul class="interest-list">
+                            <li>
+                                <i class="fas fa-atom"></i>
+                                <div class="interest-details">
+                                    <p class="name">Geometry & Quantum Theory</p>
+                                    <ul class="examples">
+                                        <li>Spinors</li>
+                                        <li>Lie Groups</li>
+                                        <li>Fiber bundles</li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li>
+                                <i class="fas fa-laptop-code"></i>
+                                <div class="interest-details">
+                                    <p class="name">Logic & Computer Science</p>
+                                    <ul class="examples">
+                                        <li>Evolutionary Computing</li>
+                                        <li>Bayesian Inference</li>
+                                        <li>Quantum Programming</li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li>
+                                <i class="fas fa-dna"></i>
+                                <div class="interest-details">
+                                    <p class="name">Biophysics</p>
+                                    <ul class="examples">
+                                        <li>DNA Replication</li>
+                                        <li>Morphogenesis</li>
+                                        <li>Physics of biological evolution</li>
+
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="column">
+                        <h2>Education</h2>
+                        <ul class="education-list">
+                            <li>
+                                <i class="fas fa-graduation-cap"></i>
+                                <div class="education-info">
+                                    <p class="degree">MSc in Research in Artifical Intelligence</p>
+                                    <p class="dates">Oct 2022 - Sep 2023</p>
+                                    <p class="university">Universidad Nacional de Educacion a Distancia</p>
+                                </div>
+                            </li>
+                            <li>
+                                <i class="fas fa-graduation-cap"></i>
+                                <div class="education-info">
+                                    <p class="degree">BSc in Mathematics</p>
+                                    <p class="dates">Oct 2018 - present</p>
+                                    <p class="university">Universidad Nacional de Educacion a Distancia</p>
+                                </div>
+                            </li>
+                            <li>
+                                <i class="fas fa-graduation-cap"></i>
+                                <div class="education-info">
+                                    <p class="degree">BSc in Physics</p>
+                                    <p class="dates">Sep 2017 - Jul 2022</p>
+                                    <p class="university">Universidad de Cordoba</p>
+                                </div>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>
-            <div class="publication-item">
-                <div class="icon">
-                    <i class="fas fa-file-alt"></i>
+        </section>
+        <section id="projects">
+            <h1>Projects</h1>
+            <div id="project-filters">
+                <button onclick="filterProjects('all')" class="active" data-category="all">All</button>
+                <button onclick="filterProjects('physics')" data-category="physics">Physics</button>
+                <button onclick="filterProjects('ai')" data-category="ai">Artificial Intelligence</button>
+            </div>
+            <div id="project-list">
+                <!-- Your projects will be dynamically added here -->
+            </div>
+        </section>
+        <section id="publications">
+            <div class="column">
+                <h1>Publications</h1>
+            </div>
+            <div class="column">
+                <div class="publication-item">
+                    <div class="icon">
+                        <i class="fas fa-file-alt"></i>
+                    </div>
+                    <div class="content">
+                        <h2>Bayesian Inference of open cluster ages from photometry,
+                            parallaxes and Lithium measurements</h2>
+                        <p class="authors"><strong>Francisco J. Palmero Moya</strong>, J. Olivares, and L.M. Sarro.</p>
+                        <p class="journal">Astronomy & Astrophysics, submitted(2023)</p>
+                        <div class="buttons">
+                            <button><a href="https://github.com/franciscopalmeromoya/biosc" target="_blank">GitHub</a></button>
+                            <button onclick="showCitation('Bayesian Inference of open cluster ages from photometry, parallaxes and Lithium measurements. \nFrancisco J. Palmero Moya, J. Olivares, and L.M. Sarro.\nAstronomy & Astrophysics')">Cite Article</button>
+                            <button>DOI</button>
+                        </div>
+                    </div>
                 </div>
-                <div class="content">
-                    <h2>A biophysics toolbox for reliable data acquisition and
-                        processing in integrated force-confocal fluorescence microscopy</h2>
-                    <p class="authors">Zhaowei Liu, Edo van Veen, Humberto Sanchez, Belen Solano, <strong>Francisco J. Palmero Moya</strong>, Kaley A. McCluskey,
-                        Daniel Ramirez Montero, Theo van Laar, and Nynke H. Dekker.</p>
-                        <p class="journal">ACS Photonics 2024 11 (4), 1592-1603</p>
-                    <div class="buttons">
-                        <button><a href="https://ctrappy.streamlit.app/" target="_blank">Online App</a></button>
-                        <button onclick="showCitation('A biophysics toolbox for reliable data acquisition and processing in integrated force-confocal fluorescence microscopy. \nZhaowei Liu, Edo van Veen, Humberto Sanchez, Belen Solano, Francisco J. Palmero Moya, Kaley A. McCluskey, Daniel Ramirez Montero, Theo van Laar, and Nynke H. Dekker.\nACS Photonics 2024 11 (4), 1592-1603')">Cite Article</button>
-                        <button>DOI</button>
+                <div class="publication-item">
+                    <div class="icon">
+                        <i class="fas fa-file-alt"></i>
+                    </div>
+                    <div class="content">
+                        <h2>A biophysics toolbox for reliable data acquisition and
+                            processing in integrated force-confocal fluorescence microscopy</h2>
+                        <p class="authors">Zhaowei Liu, Edo van Veen, Humberto Sanchez, Belen Solano, <strong>Francisco J. Palmero Moya</strong>, Kaley A. McCluskey,
+                            Daniel Ramirez Montero, Theo van Laar, and Nynke H. Dekker.</p>
+                            <p class="journal">ACS Photonics 2024 11 (4), 1592-1603</p>
+                        <div class="buttons">
+                            <button><a href="https://ctrappy.streamlit.app/" target="_blank">Online App</a></button>
+                            <button onclick="showCitation('A biophysics toolbox for reliable data acquisition and processing in integrated force-confocal fluorescence microscopy. \nZhaowei Liu, Edo van Veen, Humberto Sanchez, Belen Solano, Francisco J. Palmero Moya, Kaley A. McCluskey, Daniel Ramirez Montero, Theo van Laar, and Nynke H. Dekker.\nACS Photonics 2024 11 (4), 1592-1603')">Cite Article</button>
+                            <button>DOI</button>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    
+    </main>
+    <footer>
+        <p>© 2025 Francisco Palmero. All rights reserved.</p>
+        <div class="social-links">
+            <p>
+            <a href="https://github.com/franciscopalmero" ><i class="fab fa-github"></i></a> 
+            <a href="https://www.linkedin.com/in/franciscopalmeromoya/"><i class="fab fa-linkedin"></i></a> 
+            <a href="mailto:your@email.com"><i class="fas fa-envelope"></i></a>
+            </p>
+        </div>
+      </footer>
 </body>
 </html>
