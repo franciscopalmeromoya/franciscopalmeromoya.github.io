@@ -112,6 +112,25 @@ function showCitation(citationMessage) {
 
 
 // Load all projects by default after the DOM has fully loaded
-window.onload = function() {
+
+document.addEventListener('DOMContentLoaded', function () {
     filterProjects('all');
-};
+    // Mobile navigation hamburger menu toggle
+    const navToggle = document.querySelector('.nav-toggle');
+    const navMenu = document.querySelector('.nav-menu');
+    if (navToggle && navMenu) {
+        navToggle.addEventListener('click', function () {
+            navMenu.classList.toggle('active');
+        });
+        // Close menu when a link is clicked
+        navMenu.querySelectorAll('a').forEach(function(link) {
+            link.addEventListener('click', function () {
+                navMenu.classList.remove('active');
+            });
+        });
+        // Close menu when mouse leaves navMenu (desktop only)
+        navMenu.addEventListener('mouseleave', function () {
+            navMenu.classList.remove('active');
+        });
+    }
+});

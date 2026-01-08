@@ -11,118 +11,102 @@
 </head>
 <body>
     <main>
-        <nav>
-            <ul>
+        <nav class="navbar">
+            <div class="nav-brand">Francisco J. Palmero Moya</div>
+            <button class="nav-toggle" aria-label="Open navigation">
+                <span class="hamburger"></span>
+            </button>
+            <ul class="nav-menu">
                 <li><a href="#about">Home</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#publications">Publications</a></li>
             </ul>
         </nav>
 
-        <section id="about">
+        <section id="about" class="container">
             <div class="profile">
-                <img src="img/profile.jpg" alt="Your Name">
+                <img src="img/profile.jpg" alt="Francisco Palmero profile photo">
                 <div class="profile-info">
                     <h3>Francisco J. Palmero Moya</h3>
                     <p class="job-title">Scientific Programmer</p>
                     <p class="lab-name"><a href="https://nynkedekkerlab.web.ox.ac.uk/" target="_blank">Nynke Dekker Lab</a></p>
                     <div class="social-links">
-                        <a href="https://www.linkedin.com/in/franciscopalmeromoya/"   target="_blank">
-                        <i class="fab fa-linkedin"></i>
-                        </a>
-                        <a href="https://github.com/franciscopalmeromoya" 
-                        target="_blank">
-                        <i class="fab fa-github"></i></a>
-                        <a href="https://scholar.google.com/citations?user=Hgo-dI4AAAAJ&hl=en" 
-                        target="_blank">
-                        <i class="fab fa-google-scholar"></i></a>
-                    </div>                
+                        <a href="https://www.linkedin.com/in/franciscopalmeromoya/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/franciscopalmeromoya" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                        <a href="https://scholar.google.com/citations?user=Hgo-dI4AAAAJ&hl=en" target="_blank" aria-label="Google Scholar"><i class="fab fa-google-scholar"></i></a>
+                    </div>
                 </div>
             </div>
 
             <div class="about-content">
                 <h1>About me</h1>
                 <p>
-                    I am a mathematical physicist with a master's in Research in Artificial Intelligence. Since May 2023, I have been working as a Scientific Programmer at the Nynke Dekker Lab in Oxford, where we focus on understanding the DNA replication process of different biological systems.
+                    I am a mathematical physicist with a master's in Research in Artificial Intelligence. I obtained my B.Sc. in Physics in 2022, focusing during the thesis on studying the mathematical formalism of spinors and its application in quantum mechanics. I also complemented these studies with a B.Sc. in Mathematics with a strong focus on topics closely related to theoretical physics. In 2023, I completed a M.Sc. in Research in Artifical Intelligence and worked as a research assistant in my host group focusing on stellar open clusters dating using Baysian inference. Since May 2023, I have been working as a scientific programmer at the Nynke Dekker Lab, where I apply my analytical and programming skills to biological physics research, with a focus on understanding the physics of the DNA replication process.
                 </p>
                 <p>
-                    I obtained my B.Sc. in Physics in 2022 studying the mathematical formalism of spinors. I also complement these studies with a B.Sc. in Mathematics with a strong focus on subjects closely related to physics. I recently completed a M.Sc. in Research in Artificial Intelligence and collaborated as a research assistant where we focused on stellar dating using Bayesian hierarchical models.
+                    Through my experience in research groups, I have gained a close understanding of what conducting research entails, which has inspired me to pursue a Ph.D. and lead a research project of my own. I am particularly drawn to tackling complex scientific problems where mathematics, physics, and computational approaches intersect. In line with this goal, I have enrolled this year in a master's programme in Mathematics where I am collaborating with my thesis supervisor on a research project about L-infinity algebras and its applications.
                 </p>
-                <p>
-                    I consider myself a curious and proactive person. I am an eager reader of philosophy and literature in my free time.
-                </p>
-                <div class="about-content-columns">
-                    <div class="column">
-                        <h2>Research interests</h2>
-                        <ul class="interest-list">
-                            <li>
-                                <i class="fas fa-atom"></i>
-                                <div class="interest-details">
-                                    <p class="name">Geometry & Quantum Theory</p>
-                                    <ul class="examples">
-                                        <li>Spinors</li>
-                                        <li>Lie Groups</li>
-                                        <li>Fiber bundles</li>
-                                    </ul>
-                                </div>
-                            </li>
-                            <li>
-                                <i class="fas fa-laptop-code"></i>
-                                <div class="interest-details">
-                                    <p class="name">Logic & Computer Science</p>
-                                    <ul class="examples">
-                                        <li>Evolutionary Computing</li>
-                                        <li>Bayesian Inference</li>
-                                        <li>Quantum Programming</li>
-                                    </ul>
-                                </div>
-                            </li>
-                            <li>
-                                <i class="fas fa-dna"></i>
-                                <div class="interest-details">
-                                    <p class="name">Biophysics</p>
-                                    <ul class="examples">
-                                        <li>DNA Replication</li>
-                                        <li>Morphogenesis</li>
-                                        <li>Physics of biological evolution</li>
-
-                                    </ul>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="column">
-                        <h2>Education</h2>
-                        <ul class="education-list">
-                            <li>
-                                <i class="fas fa-graduation-cap"></i>
-                                <div class="education-info">
-                                    <p class="degree">MSc in Research in Artifical Intelligence</p>
-                                    <p class="dates">Oct 2022 - Sep 2023</p>
-                                    <p class="university">Universidad Nacional de Educacion a Distancia</p>
-                                </div>
-                            </li>
-                            <li>
-                                <i class="fas fa-graduation-cap"></i>
-                                <div class="education-info">
-                                    <p class="degree">BSc in Mathematics</p>
-                                    <p class="dates">Oct 2018 - present</p>
-                                    <p class="university">Universidad Nacional de Educacion a Distancia</p>
-                                </div>
-                            </li>
-                            <li>
-                                <i class="fas fa-graduation-cap"></i>
-                                <div class="education-info">
-                                    <p class="degree">BSc in Physics</p>
-                                    <p class="dates">Sep 2017 - Jul 2022</p>
-                                    <p class="university">Universidad de Cordoba</p>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
+                <!-- Removed research interests and education columns -->
             </div>
         </section>
+                <section id="education" class="container">
+                    <h1>Education</h1>
+                    <div class="education-cards">
+                        <div class="education-card">
+                            <div class="education-header">
+                                <span class="icon"><i class="fas fa-graduation-cap"></i></span>
+                                <span class="degree"><strong>M.Sc., Mathematics</strong> <em>in Algebraic Topology</em></span>
+                            </div>
+                            <div class="education-body">
+                                <span class="dates">Oct 2025 - Jul 2026 (expected)</span>
+                                <span class="university">Universidad de Málaga</span>
+                                <!-- <div class="gpa"><strong>GPA:</strong> 3.36/4</div> -->
+                                <div class="coursework"><strong>Key coursework:</strong> Advanced Differential Geometry, Representation Theory, Advanced Algebra, Theoretical Physics, Forms and Curvature.</div>
+                                <div class="thesis-grade"><strong>Thesis:</strong> L-infinity algebra systems and applications </div>
+                                
+                            </div>
+                        </div>
+                        <div class="education-card">
+                            <div class="education-header">
+                                <span class="icon"><i class="fas fa-graduation-cap"></i></span>
+                                <span class="degree"><strong>M.Sc., Computer Science</strong> <em>in Research in Artificial Intelligence</em></span>
+                            </div>
+                            <div class="education-body">
+                                <span class="dates">Oct 2022 - Sep 2023</span>
+                                <span class="university">Universidad Nacional de Educación a Distancia</span>
+                                <!-- <div class="gpa"><strong>GPA:</strong> 3.36/4</div> -->
+                                <div class="coursework"><strong>Key coursework:</strong> Evolutionary Computing, Machine Learning, Data Mining, Computer Vision.</div>
+                                <div class="thesis-grade"><strong>Thesis:</strong> Bayesian Inference of open cluster ages from photometry, parallaxes and Lithium measurements <span class="grade">(9.8/10)</span></div>
+                                
+                            </div>
+                        </div>
+                        <div class="education-card">
+                            <div class="education-header">
+                                <span class="icon"><i class="fas fa-graduation-cap"></i></span>
+                                <span class="degree"><strong>B.Sc., Physics</strong> <em>in Theoretical Physics</em></span>
+                            </div>
+                            <div class="education-body">
+                                <span class="dates">Sep 2017 - Jul 2022</span>
+                                <span class="university">Universidad de Córdoba</span>
+                                <!-- <div class="gpa"><strong>GPA:</strong> 3.16/4</div> -->
+                                <div class="coursework"><strong>Key coursework:</strong> Quantum Information, Quantum Field Theory, Advanced Scientific Programming, General Relativity.</div>
+                                <div class="thesis-grade"><strong>Thesis:</strong> Lie Groups and Spinors <span class="grade">(9/10)</span></div>
+                            </div>
+                        </div>
+                                                <div class="education-card">
+                            <div class="education-header">
+                                <span class="icon"><i class="fas fa-graduation-cap"></i></span>
+                                <span class="degree"><strong>B.Sc., Mathematics</strong> <em>in Algebra and Geometry</em></span>
+                            </div>
+                            <div class="education-body">
+                                <span class="dates">Oct 2018 - present</span>
+                                <span class="university">Universidad Nacional de Educación a Distancia</span>
+                                <!-- <div class="gpa"><strong>GPA:</strong> 3.00/4  (Overall 124 credits earned.) </div> -->
+                                <div class="coursework"><strong>Key coursework:</strong> Logic and Set Theory, Discrete Mathematics, Algebra, Diﬀerential Geometry, Complex Analysis.</div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
         <section id="projects">
             <h1>Projects</h1>
             <div id="project-filters">
@@ -137,39 +121,37 @@
         <section id="publications">
             <div class="column">
                 <h1>Publications</h1>
+                <h3>(to be updated)</h3>
             </div>
-            <div class="column">
-                <div class="publication-item">
-                    <div class="icon">
-                        <i class="fas fa-file-alt"></i>
+            <div class="publication-cards">
+                <div class="publication-card">
+                    <div class="publication-header">
+                        <span class="icon"><i class="fas fa-file-alt"></i></span>
+                        <h2>Bayesian Inference of open cluster ages from photometry, parallaxes and Lithium measurements</h2>
                     </div>
-                    <div class="content">
-                        <h2>Bayesian Inference of open cluster ages from photometry,
-                            parallaxes and Lithium measurements</h2>
+                    <div class="publication-body">
                         <p class="authors"><strong>Francisco J. Palmero Moya</strong>, J. Olivares, and L.M. Sarro.</p>
-                        <p class="journal">Astronomy & Astrophysics, submitted(2023)</p>
-                        <div class="buttons">
-                            <button><a href="https://github.com/franciscopalmeromoya/biosc" target="_blank">GitHub</a></button>
-                            <button onclick="showCitation('Bayesian Inference of open cluster ages from photometry, parallaxes and Lithium measurements. \nFrancisco J. Palmero Moya, J. Olivares, and L.M. Sarro.\nAstronomy & Astrophysics')">Cite Article</button>
-                            <button>DOI</button>
-                        </div>
+                        <p class="journal"> url:https://hdl.handle.net/20.500.14468/23783</p>
+                    </div>
+                    <div class="publication-actions">
+                        <button><a href="https://github.com/franciscopalmeromoya/biosc" target="_blank">GitHub</a></button>
+                        <button onclick="showCitation('Bayesian Inference of open cluster ages from photometry, parallaxes and Lithium measurements. \nFrancisco J. Palmero Moya, J. Olivares, and L.M. Sarro.\nAstronomy & Astrophysics')">Cite Article</button>
+                        <button>DOI</button>
                     </div>
                 </div>
-                <div class="publication-item">
-                    <div class="icon">
-                        <i class="fas fa-file-alt"></i>
+                <div class="publication-card">
+                    <div class="publication-header">
+                        <span class="icon"><i class="fas fa-file-alt"></i></span>
+                        <h2>A biophysics toolbox for reliable data acquisition and processing in integrated force-confocal fluorescence microscopy</h2>
                     </div>
-                    <div class="content">
-                        <h2>A biophysics toolbox for reliable data acquisition and
-                            processing in integrated force-confocal fluorescence microscopy</h2>
-                        <p class="authors">Zhaowei Liu, Edo van Veen, Humberto Sanchez, Belen Solano, <strong>Francisco J. Palmero Moya</strong>, Kaley A. McCluskey,
-                            Daniel Ramirez Montero, Theo van Laar, and Nynke H. Dekker.</p>
-                            <p class="journal">ACS Photonics 2024 11 (4), 1592-1603</p>
-                        <div class="buttons">
-                            <button><a href="https://ctrappy.streamlit.app/" target="_blank">Online App</a></button>
-                            <button onclick="showCitation('A biophysics toolbox for reliable data acquisition and processing in integrated force-confocal fluorescence microscopy. \nZhaowei Liu, Edo van Veen, Humberto Sanchez, Belen Solano, Francisco J. Palmero Moya, Kaley A. McCluskey, Daniel Ramirez Montero, Theo van Laar, and Nynke H. Dekker.\nACS Photonics 2024 11 (4), 1592-1603')">Cite Article</button>
-                            <button>DOI</button>
-                        </div>
+                    <div class="publication-body">
+                        <p class="authors">Zhaowei Liu, Edo van Veen, Humberto Sanchez, Belen Solano, <strong>Francisco J. Palmero Moya</strong>, Kaley A. McCluskey, Daniel Ramirez Montero, Theo van Laar, and Nynke H. Dekker.</p>
+                        <p class="journal">ACS Photonics 2024 11 (4), 1592-1603</p>
+                    </div>
+                    <div class="publication-actions">
+                        <button><a href="https://ctrappy.streamlit.app/" target="_blank">Online App</a></button>
+                        <button onclick="showCitation('A biophysics toolbox for reliable data acquisition and processing in integrated force-confocal fluorescence microscopy. \nZhaowei Liu, Edo van Veen, Humberto Sanchez, Belen Solano, Francisco J. Palmero Moya, Kaley A. McCluskey, Daniel Ramirez Montero, Theo van Laar, and Nynke H. Dekker.\nACS Photonics 2024 11 (4), 1592-1603')">Cite Article</button>
+                        <button>DOI</button>
                     </div>
                 </div>
             </div>
@@ -179,7 +161,7 @@
         <p>© 2025 Francisco Palmero. All rights reserved.</p>
         <div class="social-links">
             <p>
-            <a href="https://github.com/franciscopalmero" ><i class="fab fa-github"></i></a> 
+            <a href="https://github.com/franciscopalmeromoya" ><i class="fab fa-github"></i></a> 
             <a href="https://www.linkedin.com/in/franciscopalmeromoya/"><i class="fab fa-linkedin"></i></a> 
             <a href="mailto:your@email.com"><i class="fas fa-envelope"></i></a>
             </p>
