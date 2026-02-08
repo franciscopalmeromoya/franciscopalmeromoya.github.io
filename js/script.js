@@ -43,6 +43,15 @@ const projects = [
             { label: 'GitHub', url: 'https://github.com/franciscopalmeromoya/wlc-fitting' }
         ]
     },
+    { 
+        title: 'Representation Theory of Finite Groups', 
+        category: 'mathematics', 
+        description: 'This work provides an introduction to the representation theory of finite groups. Key topics include irreducible representations, Maschke\'s Theorem, and character theory, which form the mathematical foundation for analyzing symmetries in various scientific fields.',
+        imageUrl: 'img/young.webp',
+        links: [
+            { label: 'PDF (Spanish)', url: 'files/rt_finite_groups.pdf' }
+        ]
+    },
     // Add more projects as needed
 ];
 
