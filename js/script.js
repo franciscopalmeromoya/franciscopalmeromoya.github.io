@@ -52,6 +52,24 @@ const projects = [
             { label: 'PDF (Spanish)', url: 'files/rt_finite_groups.pdf' }
         ]
     },
+    { 
+    title: 'Multiobjective Evolutionary Algorithms: A Survey of the State-of-the-Art', 
+    category: 'ai', 
+    description: 'A comprehensive study of bio-inspired paradigms used to solve multiobjective optimization problems (MOPs). The work classifies state-of-the-art algorithms—such as NSGA-II, IBEA, and MOEA/D—based on their use of Pareto dominance, performance indicators, and decomposition techniques, while also exploring emerging quantum-inspired metaheuristics.',
+    imageUrl: 'img/multiobjective.png', 
+    links: [
+        { label: 'PDF', url: 'files/multiobjective.pdf' }
+    ]
+    },
+    { 
+    title: 'Explainable Artificial Intelligence: A Review', 
+    category: 'ai', 
+    description: 'An analysis of the "black box" problem in deep learning and the methods developed to make AI decisions interpretable. This work explores the trade-off between model complexity and transparency, covering post-hoc explanation techniques like LIME and SHAP, and discussing the ethical and legal necessity of human-understandable AI in sensitive sectors.',
+    imageUrl: 'img/lime.png', 
+    links: [
+        { label: 'PDF', url: 'files/xai.pdf' }
+    ]
+},
     // Add more projects as needed
 ];
 
