@@ -3,9 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Francisco J. Palmero Moya - scientific programmer with a background in physics, mathematics, and artificial intelligence.">
     <link rel="stylesheet" href="styles.css">
     <script src="https://kit.fontawesome.com/67c8b50273.js" crossorigin="anonymous"></script>
-    <script src="js/script.js"></script>
+    <script src="js/script.js" defer></script>
     <link rel="icon" href="img/icon.png" type="image/png">
     <title>Francisco Palmero</title>
 </head>
@@ -13,13 +14,13 @@
     <main>
         <nav class="navbar">
             <div class="nav-brand">Francisco J. Palmero Moya</div>
-            <button class="nav-toggle" aria-label="Open navigation">
+            <button class="nav-toggle" aria-label="Open navigation" aria-expanded="false" aria-controls="primary-navigation">
                 <span class="hamburger"></span>
             </button>
-            <ul class="nav-menu">
+            <ul class="nav-menu" id="primary-navigation">
                 <li><a href="#about">Home</a></li>
+                <li><a href="#education">Education</a></li>
                 <li><a href="#projects">Projects</a></li>
-                <li><a href="#publications">Publications</a></li>
             </ul>
         </nav>
 
@@ -29,11 +30,11 @@
                 <div class="profile-info">
                     <h3>Francisco J. Palmero Moya</h3>
                     <p class="job-title">Scientific Programmer</p>
-                    <p class="lab-name"><a href="https://nynkedekkerlab.web.ox.ac.uk/" target="_blank">Nynke Dekker Lab</a></p>
+                    <p class="lab-name"><a href="https://nynkedekkerlab.web.ox.ac.uk/" target="_blank" rel="noopener noreferrer">Nynke Dekker Lab</a></p>
                     <div class="social-links">
-                        <a href="https://www.linkedin.com/in/franciscopalmeromoya/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
-                        <a href="https://github.com/franciscopalmeromoya" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
-                        <a href="https://scholar.google.com/citations?user=Hgo-dI4AAAAJ&hl=en" target="_blank" aria-label="Google Scholar"><i class="fab fa-google-scholar"></i></a>
+                        <a href="https://www.linkedin.com/in/franciscopalmeromoya/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/franciscopalmeromoya" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                        <a href="https://scholar.google.com/citations?user=Hgo-dI4AAAAJ&hl=en" target="_blank" rel="noopener noreferrer" aria-label="Google Scholar"><i class="fab fa-google-scholar"></i></a>
                     </div>
                 </div>
             </div>
@@ -119,6 +120,7 @@
                 <!-- Your projects will be dynamically added here -->
             </div>
         </section>
+        <!-- Temporarily hidden publications section
         <section id="publications">
             <div class="column">
                 <h1>Publications</h1>
@@ -156,15 +158,16 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
+        -->
     </main>
     <footer>
         <p>© 2025 Francisco Palmero. All rights reserved.</p>
         <div class="social-links">
             <p>
-            <a href="https://github.com/franciscopalmeromoya" ><i class="fab fa-github"></i></a> 
-            <a href="https://www.linkedin.com/in/franciscopalmeromoya/"><i class="fab fa-linkedin"></i></a> 
-            <a href="mailto:your@email.com"><i class="fas fa-envelope"></i></a>
+            <a href="https://github.com/franciscopalmeromoya" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fab fa-github"></i></a> 
+            <a href="https://www.linkedin.com/in/franciscopalmeromoya/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a> 
+            <a href="mailto:franciscopalmeromoya@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
             </p>
         </div>
       </footer>

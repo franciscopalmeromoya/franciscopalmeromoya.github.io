@@ -26,10 +26,12 @@
     gap: 1rem;
     font-size: 1.1rem;
     color: #222;
+}
+
 .degree strong {
     font-weight: 600;
 }
-}
+
 .education-header .icon {
     font-size: 2.2rem;
     color: #007BFF;
@@ -247,6 +249,15 @@ nav.navbar {
 }
 .nav-menu li a:hover {
     background: #34495e;
+}
+
+.nav-toggle:focus-visible,
+.nav-menu li a:focus-visible,
+.social-links a:focus-visible,
+#project-filters button:focus-visible,
+.project-link:focus-visible {
+    outline: 3px solid #8ec5ff;
+    outline-offset: 3px;
 }
 
 @media (max-width: 900px) {
@@ -593,10 +604,19 @@ footer {
     order: 2;
     display: block;
     object-fit: contain;
+}
+
+.project-item div {
+    order: 1; /* Set the order to appear at the beginning of the flex container */
+}
+
+@media (max-width: 700px) {
     .project-item {
         flex-direction: column;
         align-items: stretch;
+        margin: 0 0 1.2rem 0;
     }
+
     .project-item img {
         order: 2;
         width: 100%;
@@ -605,13 +625,19 @@ footer {
         margin: 16px 0 0 0;
         display: block;
     }
+
     .project-item div {
         order: 1;
     }
-}
 
-.project-item div {
-    order: 1; /* Set the order to appear at the beginning of the flex container */
+    .project-links {
+        flex-wrap: wrap;
+        gap: 0.5rem;
+    }
+
+    .project-link {
+        margin-right: 0;
+    }
 }
 
 .project-item h2 {
