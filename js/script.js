@@ -70,6 +70,32 @@ const projects = [
         { label: 'PDF', url: 'files/xai.pdf' }
     ]
 },
+    {
+    title: 'Ethics and Data Science',
+    category: 'ai',
+    description: 'A case-study-driven discussion of ethical decision-making in data science, centered on predictive optimization in educational settings. The document examines transparency, accountability, contestability, distribution shifts, and target-construct mismatch through a structured legitimacy rubric.',
+    links: [
+        { label: 'PDF', url: 'files/ConsEticasPalmero.pdf' }
+    ]
+},
+    {
+    title: 'Model Selection in Supervised Learning',
+    category: 'ai',
+    description: 'A study of model selection as a statistical decision-making problem under uncertainty. The work compares classification models using performance estimation and significance testing, with emphasis on how to determine whether observed differences are meaningful rather than due to sampling variability.',
+    imageUrl: 'img/selmodelos.png', 
+    links: [
+        { label: 'PDF', url: 'files/SelModelosPalmero.pdf' }
+    ]
+},
+    {
+    title: 'Variable Selection for Correlated XOR Problems',
+    category: 'ai',
+    description: 'An exploration of feature selection methods on a synthetic dataset generated from a correlated XOR structure. The study compares several filter and wrapper approaches, highlighting the difficulty of detecting relevant variables when predictive power emerges only through feature interactions.',
+    imageUrl: 'img/xor.png', 
+    links: [
+        { label: 'PDF', url: 'files/SelVariablesPalmero.pdf' }
+    ]
+},
     // Add more projects as needed
 ];
 
@@ -112,10 +138,12 @@ function filterProjects(category) {
         contentContainer.appendChild(linksContainer);
         projectItem.appendChild(contentContainer);
 
-        const imageElement = document.createElement('img');
-        imageElement.src = project.imageUrl;
-        imageElement.alt = project.title;
-        projectItem.appendChild(imageElement);
+        if (project.imageUrl) {
+            const imageElement = document.createElement('img');
+            imageElement.src = project.imageUrl;
+            imageElement.alt = project.title;
+            projectItem.appendChild(imageElement);
+        }
 
         projectList.appendChild(projectItem);
     });
