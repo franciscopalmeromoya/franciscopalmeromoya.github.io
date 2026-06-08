@@ -44,12 +44,12 @@ const projects = [
         ]
     },
     { 
-        title: 'Representation Theory of Finite Groups', 
+        title: 'A simple proof of the Calabi-Bernstein theorem for entire maximal graphs', 
         category: 'mathematics', 
-        description: 'This work provides an introduction to the representation theory of finite groups. Key topics include irreducible representations, Maschke\'s Theorem, and character theory, which form the mathematical foundation for analyzing symmetries in various scientific fields.',
-        imageUrl: 'img/young.webp',
+        description: 'A detailed exposition of A. Romero\'s purely differential-geometric proof of the Calabi-Bernstein theorem, which states that the only entire maximal graphs in the three-dimensional Lorentz-Minkowski space are spacelike planes. The work establishes necessary semi-Riemannian geometry concepts, constructs a complete and flat conformal metric, and applies the uniformization and Liouville\'s theorems to yield the result.',
+        imageUrl: 'img/normal-vector-field.png',
         links: [
-            { label: 'PDF (Spanish)', url: 'files/rt_finite_groups.pdf' }
+            { label: 'PDF', url: 'files/calabi-bernstein.pdf' }
         ]
     },
     { 
