@@ -52,6 +52,15 @@ const projects = [
             { label: 'PDF', url: 'files/calabi-bernstein.pdf' }
         ]
     },
+    {
+        title: 'Riemannian Version of Hawking\'s Theorem',
+        category: 'mathematics',
+        description: 'A mathematical proof of the Riemannian version of Hawking\'s theorem. It adapts arguments from the Lorentzian case to show that the distance from a point to a separating hypersurface is bounded, given a complete metric and a non-negative Ricci curvature condition.',
+        imageUrl: 'img/hawkings.png',
+        links: [
+            { label: 'PDF', url: 'files/hawkings-riemann.pdf' }
+        ]
+    },
     { 
     title: 'Multiobjective Evolutionary Algorithms: A Survey of the State-of-the-Art', 
     category: 'ai', 
